@@ -75,18 +75,16 @@ var geoJson = service.ToGeoJson(polygon.Id, newTime);
 
 A temporal polygon `P` is represented as:
 
-- **Topological Structure**: An ordered sequence of vertex identifiers `P_struct = ⟨id_v1, id_v2, ..., id_vn⟩` (immutable)
-- **Vertex States**: Each vertex has a history of states `S(v) = {(Δx_k, Δy_k, [t_start, t_end))}_k`
+- **Topological Structure**: An ordered sequence of vertex identifiers <img width="188" height="25" alt="image" src="https://github.com/user-attachments/assets/74ea417a-18c9-42a3-94f2-21fbbdb63e05" />
+
+- **Vertex States**: Each vertex has a history of states <img width="220" height="40" alt="image" src="https://github.com/user-attachments/assets/3df8f31d-4c34-498f-9b04-2cbc24c50fd5" />
+
 
 ### Reconstruction Formula
 
 The polygon reconstruction at time `t_target` is:
 
-```
-P_render(t_target) = ∪_{i=1}^{n} Pos(v_i, t_target)
-```
-
-Where `Pos(v, t_target) = (x, y) ⟺ ∃k : t_start_k ≤ t_target < t_end_k`
+<img width="335" height="53" alt="image" src="https://github.com/user-attachments/assets/a0bda00e-2de5-40a0-ad8a-c37e592507ee" />
 
 ### Delta Encoding
 
