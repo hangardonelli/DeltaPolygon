@@ -13,8 +13,8 @@
     <Description>Library for efficient storage of space-time polygons using deltas. Implements a model that separates the immutable topological structure from the temporal states of vertices, enabling ultra-efficient storage through relative deltas, vertex clustering, and temporal functions.</Description>
     <PackageTags>polygon;temporal;geometry;delta;spatial;time-series</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/yourusername/DeltaPolygon</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/yourusername/DeltaPolygon</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/hangardonelli/DeltaPolygon</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/hangardonelli/DeltaPolygon</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
