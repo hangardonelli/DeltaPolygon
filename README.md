@@ -287,13 +287,6 @@ service.VertexChanged += (sender, args) =>
 - .NET 8.0 or later
 - No external dependencies (pure .NET Standard 2.1+)
 
-## Testing
-
-Run the test suite:
-
-```bash
-dotnet test
-```
 
 ## Contributing
 
