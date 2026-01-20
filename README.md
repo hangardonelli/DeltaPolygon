@@ -1,6 +1,6 @@
 # DeltaPolygon
 
-A high-performance .NET library for efficient storage and querying of temporal polygons using delta encoding. DeltaPolygon implements a novel model that separates the immutable topological structure from the temporal states of vertices, enabling ultra-efficient storage through relative deltas, vertex clustering, and temporal functions.
+A high-performance .NET library for efficient storage and querying of temporal polygons using delta encoding. DeltaPolygon implements a model that separates the immutable topological structure from the temporal states of vertices, enabling ultra-efficient storage through relative deltas, vertex clustering, and temporal functions.
 
 ## Features
 
