@@ -5,10 +5,6 @@ VisualStudioVersion = 17.8.34004.107
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeltaPolygon", "DeltaPolygon\DeltaPolygon.csproj", "{FBBEFCE6-29AA-476D-8695-F929AB22BCE7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeltaPolygon.Tests", "DeltaPolygon.Tests\DeltaPolygon.Tests.csproj", "{7C0CEB02-BEC7-4FB1-94D0-CBF7E92E8883}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{67FED2CD-CC75-4545-A755-2B03991FBF9D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
