@@ -86,6 +86,13 @@ The polygon reconstruction at time `t_target` is:
 
 <img width="335" height="53" alt="image" src="https://github.com/user-attachments/assets/a0bda00e-2de5-40a0-ad8a-c37e592507ee" />
 
+
+
+Where (x, y) is computed as:
+
+<img width="250" height="60" alt="image" src="https://github.com/user-attachments/assets/75ae8d1d-ac5c-4bfb-ac3b-b7a213276d58" />
+
+
 ### Delta Encoding
 
 When vertex movements are small (below a configurable threshold), positions are stored as relative deltas instead of absolute coordinates. This reduces storage size significantly while maintaining precision.
