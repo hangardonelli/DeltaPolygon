@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+
+    <!-- NuGet package metadata -->
+    <PackageId>DeltaPolygon</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Lautaro Conde</Authors>
+    <Description>Library for efficient storage of space-time polygons using deltas. Implements a model that separates the immutable topological structure from the temporal states of vertices, enabling ultra-efficient storage through relative deltas, vertex clustering, and temporal functions.</Description>
+    <PackageTags>polygon;temporal;geometry;delta;spatial;time-series</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/yourusername/DeltaPolygon</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/yourusername/DeltaPolygon</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+
+</Project>
